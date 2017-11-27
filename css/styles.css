@@ -42,13 +42,20 @@
   }
 
   .header {
-    margin-left: 10px;
     font-size: 18px;
   }
 
-  .headline {
-    margin-left: 15px;
+  .header h2 {
+    font-size: 22px;
     text-align: center;
+  }
+
+  em {
+    margin-left: 10px;
+  }
+
+  .header p {
+    padding: 10px;
   }
 
   .victors {
