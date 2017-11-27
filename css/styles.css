@@ -70,14 +70,14 @@
   .victors span {
     display: inline-block;
     position: relative;
-    font-size: 26px;
+    font-size: 27px;
   }
 
   .victors span:before, .victors span:after {
     content: "";
     position: absolute;
     border-top: 1px inset gray;
-    margin-top: 9px;
+    margin-top: 16px;
     width: 129%;
   }
 
@@ -113,6 +113,62 @@
 
   .portrait img {
     border-radius: 5%;
-    height: 177px;
+    height: 190px;
+    box-shadow: 2px 2px 2px grey;
     }
+
+  .fleur-div {
+    clear: both;
+    padding: 10px;
+  }
+
+  .fleur {
+    overflow: hidden;
+    text-align: center;
+  }
+
+  .fleur span {
+    display: inline-block;
+    position: relative;
+    font-size: 29px;
+  }
+
+  .fleur span:before, .fleur span:after {
+    content: "";
+    position: absolute;
+    border-top: 1px inset gray;
+    margin-top: 16px;
+    width: 658%;
+  }
+
+  .fleur span:before {
+    right: 100%;
+    margin-right: 15%;
+  }
+
+  .fleur span:after {
+    left: 100%;
+    margin-left: 15%;
+  }
+
+  .fleur img {
+    width: 27px;
+  }
+
+  .footer {
+    clear: both;
+    margin-bottom: 75px;
+  }
+
+  .footer p {
+    text-align: center;
+    font-size: 13px;
+  }
+
+  #sidney, #sir, #ethan {
+    color: maroon;
+  }
+
+  #sidney:hover, #sir:hover, #ethan:hover {
+    color: crimson;
 }
