@@ -90,4 +90,29 @@
     left: 100%;
     margin-left: 15%;
   }
+
+  .portrait {
+    float: left;
+    margin: 5px;
+  }
+
+  .portrait p {
+    text-align: center;
+    color: maroon;
+    font-size: 10px;
+  }
+
+  .portrait p:hover {
+    color: crimson;
+  }
+
+  .portrait p:last-of-type {
+    font-size: 15px;
+    font-weight: bold;
+  }
+
+  .portrait img {
+    border-radius: 5%;
+    height: 177px;
+    }
 }
