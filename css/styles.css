@@ -58,28 +58,36 @@
     padding: 10px;
   }
 
+  .victors-div {
+    padding: 10px;
+  }
+
   .victors {
+    overflow: hidden;
     text-align: center;
-    font-size: 20px;
-    margin-bottom: 5px;
-    display: inline;
-    margin: 5px;
   }
 
-  .victors-headline h3 {
-    max-width: 30%;
-    float: left;
+  .victors span {
+    display: inline-block;
+    position: relative;
+    font-size: 26px;
   }
 
-  .line-left {
-    float: left;
-    border: 1px inset black;
-    max-width: 30%;
+  .victors span:before, .victors span:after {
+    content: "";
+    position: absolute;
+    border-top: 1px inset gray;
+    margin-top: 9px;
+    width: 129%;
   }
 
-  .line-right {
-    float: left;
-    border: 1px inset black;
-    max-width: 30%;
-    }
+  .victors span:before {
+    right: 100%;
+    margin-right: 15%;
+  }
+
+  .victors span:after {
+    left: 100%;
+    margin-left: 15%;
+  }
 }
