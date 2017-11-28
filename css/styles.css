@@ -4,7 +4,11 @@
   box-sizing: border-box;
 }
 
-@media screen and (min-width:345px){
+@media screen and (min-width:320px){
+
+  body {
+    background-color: rgb(232, 232, 232);
+  }
 
   .line {
     border-top: 1px inset gray;
@@ -114,6 +118,180 @@
   .portrait img {
     border-radius: 5%;
     height: 190px;
+    box-shadow: 2px 2px 2px grey;
+    }
+
+  .fleur-div {
+    clear: both;
+    padding: 10px;
+  }
+
+  .fleur {
+    overflow: hidden;
+    text-align: center;
+  }
+
+  .fleur span {
+    display: inline-block;
+    position: relative;
+    font-size: 29px;
+  }
+
+  .fleur span:before, .fleur span:after {
+    content: "";
+    position: absolute;
+    border-top: 1px inset gray;
+    margin-top: 16px;
+    width: 658%;
+  }
+
+  .fleur span:before {
+    right: 100%;
+    margin-right: 15%;
+  }
+
+  .fleur span:after {
+    left: 100%;
+    margin-left: 15%;
+  }
+
+  .fleur img {
+    width: 27px;
+  }
+
+  .footer {
+    clear: both;
+    margin-bottom: 75px;
+  }
+
+  .footer p {
+    text-align: center;
+    font-size: 13px;
+  }
+
+  #sidney, #sir, #ethan {
+    color: maroon;
+  }
+
+  #sidney:hover, #sir:hover, #ethan:hover {
+    color: crimson;
+}
+
+@media screen and (min-width:410px) and (max-width:1024px){
+  body {
+    background-color: rgb(232, 232, 232);
+  }
+
+  .line {
+    border-top: 1px inset gray;
+    margin: 8% 2% 0%;
+  }
+
+  .menu-items {
+    width: 32%;
+    float: left;
+    margin-left: 1%;
+  }
+
+  .nav-bar p {
+    max-width: inherit;
+    text-align: center;
+    padding: 5px 0 10px;
+    font-size: 10px;
+    font-family: sans-serif;
+    color: maroon;
+  }
+
+  .bottom-line {
+    border-bottom: 1px inset gray;
+    margin: 5px;
+    color: maroon;
+  }
+
+  .logo {
+    clear: both;
+    text-align: center;
+  }
+
+  .logo img {
+    margin: 23px 0 11px;
+  }
+
+  .header {
+    font-size: 18px;
+  }
+
+  .header h2 {
+    font-size: 22px;
+    text-align: center;
+  }
+
+  em {
+    margin-left: 10px;
+  }
+
+  .header p {
+    padding: 10px;
+  }
+
+  .victors-div {
+    padding: 10px;
+  }
+
+  .victors {
+    overflow: hidden;
+    text-align: center;
+  }
+
+  .victors span {
+    display: inline-block;
+    position: relative;
+    font-size: 27px;
+  }
+
+  .victors span:before, .victors span:after {
+    content: "";
+    position: absolute;
+    border-top: 1px inset gray;
+    margin-top: 16px;
+    width: 129%;
+  }
+
+  .victors span:before {
+    right: 100%;
+    margin-right: 15%;
+  }
+
+  .victors span:after {
+    left: 100%;
+    margin-left: 15%;
+  }
+
+  .portrait {
+    float: left;
+    margin: 5px;
+    width: 30%;
+  }
+
+  .portrait p {
+    text-align: center;
+    color: maroon;
+    font-size: 10px;
+  }
+
+  .portrait p:hover {
+    color: crimson;
+  }
+
+  .portrait p:last-of-type {
+    font-size: 15px;
+    font-weight: bold;
+  }
+
+  .portrait img {
+    border-radius: 5%;
+    width: 100%;
+    height: 100%;
     box-shadow: 2px 2px 2px grey;
     }
 
